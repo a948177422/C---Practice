@@ -9,7 +9,9 @@ using namespace std;
 class Solution {
 public:
 	vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+		vector<vector<int>> vec_ret;
 
+		return vec_ret;
 	}
 };
 
@@ -37,7 +39,18 @@ int main()
 
 	vector<vector<int>> res = foo.combinationSum(vec_num_2, 4);
 
-	int xxx;
+	// factorial
+	int xxx = 0;
+	int factorial = 1;
 	cin >> xxx;
+
+	while(xxx > 0){
+		factorial *= xxx--;
+	}
+
+	cout << factorial;
+
+	int pauseline;
+	cin >> pauseline;
 }
 
