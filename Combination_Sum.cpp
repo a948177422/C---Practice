@@ -37,18 +37,7 @@ int main()
 		vec_num_rand.push_back(ran_num);
 	}
 
-	vector<vector<int>> res = foo.combinationSum(vec_num_2, 4);
-
-	// factorial
-	int xxx = 0;
-	int factorial = 1;
-	cin >> xxx;
-
-	while(xxx > 0){
-		factorial *= xxx--;
-	}
-
-	cout << factorial;
+	vector<vector<int>> res = foo.combinationSum(vec_num_2, 4);	
 
 	int pauseline;
 	cin >> pauseline;
