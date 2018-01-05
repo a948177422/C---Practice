@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Recursive.cpp" />
+    <ClCompile Include="STL_function.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{A7D44A40-E2D2-4D34-8DCB-599C5B698740}</ProjectGuid>
